@@ -1,0 +1,41 @@
+.web-container{
+    display: grid;
+    grid-template-columns: repeat( 2 , 1fr );
+    padding: 1rem ;
+}
+
+.img{
+    width: 100%;
+    height: 500px;
+    cursor: pointer;
+    background-image: url('../assets/videoImage.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 1rem;
+}
+iframe{
+    width: 600px;
+}
+.web-info{
+    padding: 2rem;
+    text-align: justify;
+}
+.web-info h2{
+    padding: 1rem;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1050px) {
+    .web-container {
+        grid-template-columns: repeat( 1 , 1fr );
+        transition: 1s ease;
+    }
+    .web-info{
+        padding: 0 3rem;
+        align-content: center;
+        transition: 1s ease;
+    }
+
+}
