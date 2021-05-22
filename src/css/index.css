@@ -47,6 +47,27 @@ body {
   border: 1px solid black;
 }
 
+/* WELLCOME */
+.wellcome{
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 6rem;
+}
+.wellcame-h1{
+  font-size: 46px;
+  font-weight: bold;
+}
+.wellcome-introdution{
+  text-align: center;
+  padding: 2.5rem;
+}
+
+.wellcome-h6{
+  font-weight: bold;
+}
+
+
+
 /* FOOTER */
 .footer{
   text-align: center;
