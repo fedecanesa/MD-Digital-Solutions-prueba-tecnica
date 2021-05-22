@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/R2.css'
+import '../../css/R2.css'
 
 const Table = ()=>{
     return (
