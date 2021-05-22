@@ -3,13 +3,14 @@ body {
   margin: 0;
   padding: 0;
   background:white;  /* fallback for old browsers */
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 
 /* HEADER */
 .header{
-  background-color: silver;
+  background-color: gray;
   border: 1px solid grey;
 }
 .title{
@@ -25,20 +26,27 @@ body {
 .nav{
   text-align: center;
   padding: 1rem;
+  background-color: silver;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3 , 1fr);
+  justify-content: space-around;
 }
-button{
-  width: 150px;
-  padding: .5rem 2rem;
-  margin: 7px;
+.nav a{
+  text-decoration: none;
+  padding: 1rem;
+  color: white;
+  border: 1px solid white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+}
+
+.nav a:hover{
+  background-color: white;
   color: black;
-  font-size: 24px;
-  border: none;
+  border: 1px solid black;
 }
-button:hover{
-  background-color: grey;
-  color: whitesmoke;
-}
+
 /* FOOTER */
 .footer{
   text-align: center;
