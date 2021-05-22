@@ -3,6 +3,7 @@
     margin: 0;
     text-align: -webkit-center;
     text-align: -moz-center;
+    padding: 1rem;
   }
   .table{
     table-layout: fixed;
@@ -30,3 +31,11 @@
   .even{
     background-color: white;
   }
+
+  @media screen and (max-width: 600px) {
+    table {
+      padding: 1rem;
+      display: block;
+      overflow-x: auto;
+    }
+}
